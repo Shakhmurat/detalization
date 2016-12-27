@@ -1,8 +1,13 @@
+
+/*  В данном файле указаны стили для детализации */
+
+/* стили для кнопки "Показать на фото" */
 .item-card-details .btn {
 	display: block;
   margin: 15px 0;
 }
 
+/* стили для подсказки */
 .img-tooltip {
   position: absolute;
   padding: 5px 20px;
@@ -12,6 +17,7 @@
   background-color: rgba(46,10,10, .7);
 }
 
+/* треугольник для подсказки */
 .img-tooltip::before {
 	width: 0;
 	height: 0;
@@ -25,34 +31,39 @@
 	transform: translate(-50%);
 }
 
+/* пример расположение первой подсказки */
 .img-tooltip.tooltip-1 {
 	top: 23%;
   left: 52%;
 }
 
+/* пример расположение второй подсказки */
 .img-tooltip.tooltip-2 {
 	top: 29%;
   left: 41%;
 }
 
+/* пример расположение третьей подсказки */
 .img-tooltip.tooltip-3 {
 	top: 17%;
 	left: 41%;
 }
+
+/* пример расположение четвертой подсказки */
 .img-tooltip.tooltip-4 {
 	top: 30%;
 	left: 47%;
 }
+
+/* пример расположение пятой подсказки */
 .img-tooltip.tooltip-5 {
 	top: 45%;
 	left: 38%;
 }
+
+/* пример расположение шестой подсказки */
 .img-tooltip.tooltip-6 {
 	top: 16%;
   left: 40%;
 }
-
-
-
-
 
