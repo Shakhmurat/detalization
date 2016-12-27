@@ -1,0 +1,58 @@
+.item-card-details .btn {
+	display: block;
+  margin: 15px 0;
+}
+
+.img-tooltip {
+  position: absolute;
+  padding: 5px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #fff;
+  background-color: rgba(46,10,10, .7);
+}
+
+.img-tooltip::before {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid rgba(46,10,10, .7);
+	content: "";
+	position: absolute;
+	top: -10px;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.img-tooltip.tooltip-1 {
+	top: 23%;
+  left: 52%;
+}
+
+.img-tooltip.tooltip-2 {
+	top: 29%;
+  left: 41%;
+}
+
+.img-tooltip.tooltip-3 {
+	top: 17%;
+	left: 41%;
+}
+.img-tooltip.tooltip-4 {
+	top: 30%;
+	left: 47%;
+}
+.img-tooltip.tooltip-5 {
+	top: 45%;
+	left: 38%;
+}
+.img-tooltip.tooltip-6 {
+	top: 16%;
+  left: 40%;
+}
+
+
+
+
+
